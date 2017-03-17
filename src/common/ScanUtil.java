@@ -19,6 +19,7 @@ public class ScanUtil {
 			input = scanner.next();
 			break;
 		}
+		scanner.close();
 		return Integer.parseInt(input);
 	}
 

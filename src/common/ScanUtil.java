@@ -13,6 +13,10 @@ public class ScanUtil {
 	 * @return
 	 */
 	public static int inputNum() {
+		return Integer.parseInt(inputStr());
+	}
+
+	public static String inputStr() {
 		Scanner scanner = new Scanner(System.in);
 		String input = null;
 		while (scanner.hasNext()) {
@@ -20,7 +24,7 @@ public class ScanUtil {
 			break;
 		}
 		// scanner.close();
-		return Integer.parseInt(input);
+		return input;
 	}
 
 }
